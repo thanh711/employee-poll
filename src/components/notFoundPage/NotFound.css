@@ -1,0 +1,45 @@
+.not-found-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+  }
+  
+  .not-found-title {
+    font-size: 10rem;
+    margin: 0;
+    color: #ff4040;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .not-found-message {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .not-found-astronaut img {
+    width: 300px;
+    margin-bottom: 40px;
+  }
+  
+  .go-home-button {
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    background-color: #ff4040;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .go-home-button:hover {
+    background-color: #ff2020;
+  }
+  

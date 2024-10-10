@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <h1>
+      Employee Polls 
+    </h1>
+    <div
+      class="image-container"
+    >
+      <img
+        alt="Employee Polls"
+        class="login-image"
+        src="/img/login.webp "
+      />
+    </div>
+    <h2>
+      Log In
+    </h2>
+    <select
+      class="custom-dropdown"
+    >
+      <option
+        class="center-option"
+        disabled=""
+        selected=""
+        value="none"
+      >
+        -- Select an option --
+      </option>
+      <option
+        value="sarahedo"
+      >
+        sarahedo
+      </option>
+    </select>
+    <br />
+    <br />
+    <div
+      class="input-group"
+    >
+      <input
+        class="input-field"
+        placeholder="User"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="input-group"
+    >
+      <input
+        class="input-field"
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+    </div>
+    <button
+      class="submit-btn"
+      type="submit"
+    >
+      Login
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`NotFound component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="not-found-container"
+  >
+    <h1
+      class="not-found-title"
+    >
+      404
+    </h1>
+    <p
+      class="not-found-message"
+    >
+      Oops! It seems like you're lost in space. 
+      <br />
+      The page you're looking for is out of this world!
+    </p>
+    <div
+      class="not-found-astronaut"
+    >
+      <img
+        alt="not found"
+        src="/img/notfound.webp"
+      />
+    </div>
+    <a
+      class="go-home-button"
+      href="/"
+    >
+      Take Me Home
+    </a>
+  </div>
+</DocumentFragment>
+`;

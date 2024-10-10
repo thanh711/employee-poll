@@ -1,0 +1,84 @@
+.notice {
+    color: red;
+}
+
+.custom-dropdown {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #333;
+    width: 200px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+  
+.custom-dropdown::after {
+    content: '▼';
+    font-size: 12px;
+    color: #333;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+  
+.custom-dropdown:hover {
+    background-color: #f1f1f1;
+    border-color: #888;
+}
+  
+.custom-dropdown:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    outline: none;
+}
+  
+.center-option {
+    text-align: center;
+}
+h1 {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+   
+.image-container {
+    margin: 20px 0;
+}
+   
+.login-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+   
+.login-form {
+    display: inline-block;
+    text-align: left;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+   
+  h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+   
+.input-group {
+    margin-bottom: 15px;
+}
+   
+.input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
